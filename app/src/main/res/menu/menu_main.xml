@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <!--<item android:id="@+id/action_settings" android:title="Settings"-->
+        <!--android:orderInCategory="100" app:showAsAction="never" />-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_backgroundBlack_ID"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/black_string" />
+        <item
+            android:id="@+id/menu_backgroundWhite_ID"
+            android:orderInCategory="2"
+            android:showAsAction="never"
+            android:title="@string/white_string" />
+        <item
+            android:id="@+id/menu_backgroundGrey_ID"
+            android:orderInCategory="3"
+            android:showAsAction="never"
+            android:title="@string/grey_string" />
+
+    </group>
+
+
+
+
+</menu>
